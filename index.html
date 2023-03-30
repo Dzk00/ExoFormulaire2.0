@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <section class="s-formulaire">
+        <h1 class="title">Inscrivez-vous.</h1>
+        <form action="" class="formulaire">
+            <div class="container">
+                <div class="nom">
+                    <label for="">Nom d'utilisateur</label><br>
+                    <input id="nom" type="text" placeholder="Votre pseudo"><img src="error.svg" alt="">
+                    <p class="sub-nom">Choississez un pseudo contenant au moins 3 caractères.</p>
+                </div>
+                <div class="mail">
+                    <label for="">Entrez votre email</label><br>
+                    <input id="mail" type="text" placeholder="Votre email"><img src="error.svg" alt="">
+                    <p class="sub-mail">Rentrez un email valide.</p>
+                </div>
+                <div class="mdp">
+                    <label for="">Mot de passe</label><br>
+                    <input id="password" type="password"><img src="error.svg" alt="">
+                    <p class="sub-mdp">Au moins un symbole, un chiffre, ainsi que 6 caractères minimum.</p>
+                    <div class="secu">
+                        <span id="faible">faible</span>
+                        <span id="moyen">moyen</span>
+                        <span id="good">correct</span>
+                    </div>
+                </div>
+                <div class="mdp-confirm"><br>
+                    <label for="">Confirmez le mot de passe</label><br>
+                    <input id="c-mdp" type="password"><img src="error.svg" alt="">
+                    <p>Veuillez saisir un mot de passe identique</p>
+                </div>
+                <div class="btn">
+                    <button>Création du compte</button>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
